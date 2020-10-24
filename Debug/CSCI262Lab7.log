@@ -1,0 +1,34 @@
+﻿  main.cpp
+C:\Users\Drewr\Documents\School\CSCI262\CSCI262Lab7\CSCI262Lab7\main.cpp(54,40): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Drewr\Documents\School\CSCI262\CSCI262Lab7\CSCI262Lab7\main.cpp(72,31): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Drewr\Documents\School\CSCI262\CSCI262Lab7\CSCI262Lab7\main.cpp(76,36): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Drewr\Documents\School\CSCI262\CSCI262Lab7\CSCI262Lab7\main.cpp(86,36): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xtree(1376,36): error C2100: illegal indirection
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\map(121): message : see reference to function template instantiation 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<_Iter>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=int,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,int>>,
+              _Iter=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\map(121): message : see reference to function template instantiation 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<_Iter>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=int,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,int>>,
+              _Iter=int
+          ]
+C:\Users\Drewr\Documents\School\CSCI262\CSCI262Lab7\CSCI262Lab7\main.cpp(29): message : see reference to function template instantiation 'std::map<int,int,std::less<int>,std::allocator<std::pair<const int,int>>>::map<int>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Iter=int
+          ]
+C:\Users\Drewr\Documents\School\CSCI262\CSCI262Lab7\CSCI262Lab7\main.cpp(29): message : see reference to function template instantiation 'std::map<int,int,std::less<int>,std::allocator<std::pair<const int,int>>>::map<int>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Iter=int
+          ]
